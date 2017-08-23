@@ -1,0 +1,28 @@
+{
+    "name": "philcross/getaddress-php",
+    "description": "A PHP SDK for getAddress - Address lookup API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.9",
+        "phpunit/phpunit": "^5.7"
+    },
+    "authors": [
+        {
+            "name": "Phil Cross",
+            "email": "p.cross@live.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Philcross\\GetAddress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Philcross\\GetAddress\\Tests\\": "tests/"
+        }
+    }
+}
