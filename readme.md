@@ -1,4 +1,4 @@
-# getAddress PHP SDK
+# getAddress PHP SDK [![CircleCI](https://circleci.com/gh/philcross/getaddress-php/tree/master.svg?style=svg)](https://circleci.com/gh/philcross/getaddress-php/tree/master)
 
 This is a framework agnostic PHP SDK for getAddress.io's address lookup API.
 
